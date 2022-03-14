@@ -10,6 +10,7 @@
             Console.WriteLine("3 = PowerOfTwo");
             Console.WriteLine("4 = Harmonic Number");
             Console.WriteLine("5 = Factor");
+            Console.WriteLine("6 = QuotientReminder");
             int ch = int.Parse(Console.ReadLine());
 
             switch (ch)
@@ -36,6 +37,10 @@
                 case 5:
                     Factor fact = new Factor();
                     fact.Factors();
+                    break;
+                case 6:
+                    QuotientReminder quormdr = new QuotientReminder();
+                    quormdr.Quotient();
                     break;
             }
 
