@@ -9,6 +9,7 @@
             Console.WriteLine("2 = LeapYear");
             Console.WriteLine("3 = PowerOfTwo");
             Console.WriteLine("4 = Harmonic Number");
+            Console.WriteLine("5 = Factor");
             int ch = int.Parse(Console.ReadLine());
 
             switch (ch)
@@ -31,6 +32,10 @@
                 case 4:
                     HarmonicNumber hn = new HarmonicNumber();
                     hn.Harmonic();
+                    break;
+                case 5:
+                    Factor fact = new Factor();
+                    fact.Factors();
                     break;
             }
 
