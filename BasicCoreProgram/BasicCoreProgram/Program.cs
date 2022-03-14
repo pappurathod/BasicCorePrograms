@@ -14,6 +14,7 @@
             Console.WriteLine("7 = Swap Two Numbers");
             Console.WriteLine("8 = Even Odd");
             Console.WriteLine("9 = Alphabet Vowel Consonant");
+            Console.WriteLine("10 = Largest Among Three");
             int ch = int.Parse(Console.ReadLine());
 
             switch (ch)
@@ -56,6 +57,10 @@
                 case 9:
                     VowelsConsonant vowconso = new VowelsConsonant();
                     vowconso.WovelConso();
+                    break;
+                case 10:
+                    LargestAmongThree larg = new LargestAmongThree();
+                    larg.Largest();
                     break;
             }
 
