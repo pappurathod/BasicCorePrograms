@@ -12,7 +12,8 @@
             int ch = int.Parse(Console.ReadLine());
 
             switch (ch)
-            {
+            {             
+            
                 case 1:
                     FlipCoin fc = new FlipCoin();
                     fc.Display();
@@ -21,6 +22,7 @@
                     LeapYear ly = new LeapYear();
                     ly.Leap();
                     break;
+
 
                 case 3:
                     PowerOfTwo pot = new PowerOfTwo();
@@ -34,5 +36,7 @@
 
 
         }
+
+
     }
 }
