@@ -13,6 +13,7 @@
             Console.WriteLine("6 = QuotientReminder");
             Console.WriteLine("7 = Swap Two Numbers");
             Console.WriteLine("8 = Even Odd");
+            Console.WriteLine("9 = Alphabet Vowel Consonant");
             int ch = int.Parse(Console.ReadLine());
 
             switch (ch)
@@ -51,6 +52,10 @@
                 case 8:
                     EvenOdd evod = new EvenOdd();
                     evod.check();
+                    break;
+                case 9:
+                    VowelsConsonant vowconso = new VowelsConsonant();
+                    vowconso.WovelConso();
                     break;
             }
 
