@@ -12,6 +12,7 @@
             Console.WriteLine("5 = Factor");
             Console.WriteLine("6 = QuotientReminder");
             Console.WriteLine("7 = Swap Two Numbers");
+            Console.WriteLine("8 = Even Odd");
             int ch = int.Parse(Console.ReadLine());
 
             switch (ch)
@@ -46,6 +47,10 @@
                 case 7:
                     SwapTwoNumber swapnum = new SwapTwoNumber();
                     swapnum.Swap();
+                    break;
+                case 8:
+                    EvenOdd evod = new EvenOdd();
+                    evod.check();
                     break;
             }
 
