@@ -7,7 +7,8 @@
             Console.WriteLine("Enter Your Choice");
             Console.WriteLine("1 = FlipCoin");
             Console.WriteLine("2 = LeapYear");
-            Console.WriteLine("3 = Harmonic Number");
+            Console.WriteLine("3 = PowerOfTwo");
+            Console.WriteLine("4 = Harmonic Number");
             int ch = int.Parse(Console.ReadLine());
 
             switch (ch)
@@ -24,6 +25,10 @@
                 case 3:
                     PowerOfTwo pot = new PowerOfTwo();
                     pot.PowerTwo();
+                    break;
+                case 4:
+                    HarmonicNumber hn = new HarmonicNumber();
+                    hn.Harmonic();
                     break;
             }
 
