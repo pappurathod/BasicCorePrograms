@@ -11,6 +11,7 @@
             Console.WriteLine("4 = Harmonic Number");
             Console.WriteLine("5 = Factor");
             Console.WriteLine("6 = QuotientReminder");
+            Console.WriteLine("7 = Swap Two Numbers");
             int ch = int.Parse(Console.ReadLine());
 
             switch (ch)
@@ -41,6 +42,10 @@
                 case 6:
                     QuotientReminder quormdr = new QuotientReminder();
                     quormdr.Quotient();
+                    break;
+                case 7:
+                    SwapTwoNumber swapnum = new SwapTwoNumber();
+                    swapnum.Swap();
                     break;
             }
 
